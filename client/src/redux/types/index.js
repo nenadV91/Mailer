@@ -1,0 +1,36 @@
+// clients
+export const CLIENTS_GET_REQUESTED = 'CLIENTS_GET_REQUESTED';
+export const CLIENTS_GET_SUCCEEDED = 'CLIENTS_GET_SUCCEEDED';
+export const CLIENTS_GET_FAILED = 'CLIENTS_GET_FAILED';
+
+export const CLIENT_ADD_REQUESTED = 'CLIENT_ADD_REQUESTED';
+export const CLIENT_ADD_SUCCEEDED = 'CLIENT_ADD_SUCCEEDED';
+export const CLIENT_ADD_FAILED = 'CLIENT_ADD_FAILED';
+
+export const CLIENT_REMOVE = 'CLIENT_REMOVE';
+export const CLIENT_UPDATE = 'CLIENT_UPDATE';
+
+
+// emails
+export const EMAIL_SEND_REQUESTED = 'EMAIL_SEND_REQUESTED';
+export const EMAIL_SEND_SUCCEEDED = 'EMAIL_SEND_SUCCEEDED';
+export const EMAIL_SEND_FAILED = 'EMAIL_SEND_FAILED';
+
+
+// filters
+export const SET_FILTER = 'SET_FILTER';
+
+
+// dialog
+export const OPEN_DIALOG = 'OPEN_DIALOG';
+export const CLOSE_DIALOG = 'CLOSE_DIALOG';
+
+
+// selected
+export const CLIENT_SELECT = 'CLIENT_SELECT';
+export const CLIENT_UNSELECT = 'CLIENT_UNSELECT';
+
+
+// sidebar
+export const TOGGLE_SIDEBAR = 'TOGGLE_SIDEBAR';
+

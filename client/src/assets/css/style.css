@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300');
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+}
+
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 0.9rem;
+}
+textarea::-moz-placeholder,
+input::-moz-placeholder { /* Firefox 19+ */
+  font-size: 0.9rem;
+}
+textarea:-ms-input-placeholder,
+input:-ms-input-placeholder { /* IE 10+ */
+  font-size: 0.9rem;
+}
+textarea:-moz-placeholder,
+input:-moz-placeholder { /* Firefox 18- */
+  font-size: 0.9rem;
+}
